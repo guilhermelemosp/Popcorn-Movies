@@ -1,37 +1,3 @@
-	• Cadastrar filme
-		- id
-		- titulo
-		- genero
-		- idade mínima
-		- tempo
-		- valor
-		- tecnologia (2D, 3D)
-		- poltronas disponiveis -> VER ATUALIZAÇAO DE POLTRONAS
-
-	• Cadastro de usuarios
-		- nome
-		- role (cliente, funcionario)
-		- idade
-		- user
-		- password
-		
-
-A sala de cinema possui 100 poltronas enumeradas onde existe um ingresso para cada poltrona
-
-Usuários do tipo (cliente) poderão:
-	- comprar ingressos no sistema
-	- listas os filmes em cartaz
-		• a listagem deve retornar somente os filme de acordo com a classificação indicativa especificada
-	- visualizar os ingressos que comprou -> FAZER
-	- sair para a tela de login
-
-      CLIENTE
-		- comprar ingressos no sistema
-		- listas os filmes em cartaz
-			• a listagem deve retornar somente os filme de acordo com a classificação indicativa especificada
-		- visualizar os ingressos que comprou
-		- sair -> (TELA DE LOGIN)
-
 <h1 align="center">POPCORN MOVIES</h1>
 Popcorn Movies is a React-based movie website that allows users to search for movies by title, sort them by genre, and buy tickets for the movies by user's age. The website is designed to be user-friendly and visually appealing.
 <hr/>
@@ -70,7 +36,8 @@ Firstly, download the entire website code and extract the ZIP file to a folder o
 
 ## Step 2: Obtain the TMDB Movies API Key and Firebase Configuration
 
-Before starting the website, you will need to obtain the TMDB Movies API key and Firebase configuration. Follow these steps to obtain them and add them to your `.env` file.
+This application is Hybrid, for now. I started by using the TMDB API, and throughout the project creation process, I gradually made changes to switch to local data storage and retrieval in a database.
+Even so, before starting the website, you will need to obtain the TMDB Movies API key and Firebase configuration. Follow these steps to obtain them and add them to your `.env` file.
 
 ### ▶️ Get TMDB API Key 
 
